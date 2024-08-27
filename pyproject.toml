@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "vrouter"
+version = "0.1.0"
+description = "project Microservice for Vrouter API"
+authors = ["Adil Sky"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+fastapi = "^0.112.2"
+pydantic = "^2.8.2"
+basemodel = "^20190604.1625"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
